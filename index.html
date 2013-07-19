@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head>
     <meta charset="utf-8">
-    <title>My First Bitstarter</title>
+    <title>Nano Face</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
@@ -95,6 +95,25 @@
       .footer a {
       color: #ccccff;
       }
+      .flex-video {
+      position: relative;
+      padding-top: 25px;
+      padding-bottom: 67.5%;
+      height: 0;
+      margin-bottom: 16px;
+      overflow: hidden;
+      }
+      .flex-video.widescreen { padding-bottom: 57.25%; }
+      .flex-video.vimeo { padding-top: 0; }
+      .flex-video iframe,
+      .flex-video object,
+      .flex-video embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      }
     </style>
   </head>
   <body style="">
@@ -107,7 +126,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="#">Bitstarter</a>
+          <a class="brand" href="#">Nano</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
@@ -122,17 +141,17 @@
     <div class="container">
       <div class="row-fluid heading">
         <div class="span12">
-          <h1>Product</h1>
+          <h1>Nano Face</h1>
         </div>
       </div> 
       <div class="row-fluid subheading">
         <div class="span12">
-          <p class="lead">One sentence description.</p>
+          <p class="lead">Just fake it</p>
         </div>
       </div>
       <div class="row-fluid pitch">
         <div class="span5 offset1 video">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
+          <img class="img-polaroid" src="//s3-eu-west-1.amazonaws.com/elasticbeanstalk-eu-west-1-061351024472/faces.jpg">
         </div>
 
         <div class="span5 actions">
@@ -173,44 +192,29 @@
 
       <div class="row-fluid section1">
         <div class="span5 offset1 asset">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
+          <img class="img-polaroid" src="//s3-eu-west-1.amazonaws.com/elasticbeanstalk-eu-west-1-061351024472/faces.jpg">
         </div>
         <div class="span5 copy">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu
-            mollis justo velit at nunc. Fusce nec egestas sem. Donec
-            fringilla ante lectus, a pellentesque lacus dignissim ac. Sed
-            volutpat lorem ut congue malesuada. In facilisis scelerisque
-            turpis sed lacinia. Donec in orci lectus. Donec auctor semper
-            quam, eget rhoncus purus fringilla id. Phasellus id nibh eu
-            risus ultrices adipiscing.  Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Donec porta, dui sagittis hendrerit
-            rutrum, nunc leo tempus nisl, eu mollis justo velit at
-            nunc. Fusce nec egestas sem. Donec fringilla.
-          </p>
+	    As aspiring startup-engineers and founders we'll have to keep our Angel Inverstors and VC's happy. Even when things are going well this it can be quite challinging, but when experiencing setback after setback this can quickly become undoable.
+	  Thats why we are developing Nano Face. With Nano Face you'll be able to fake any emotion you'd like. This will make it much easier to convince the world your are the right horse to back.</p>
         </div>
       </div>
 
       <div class="row-fluid section2">
         <div class="span5 offset1 copy copy-right">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu
-            mollis justo velit at nunc. Fusce nec egestas sem. Donec
-            fringilla ante lectus, a pellentesque lacus dignissim ac. Sed
-            volutpat lorem ut congue malesuada. In facilisis scelerisque
-            turpis sed lacinia. Donec in orci lectus. Donec auctor semper
-            quam, eget rhoncus purus fringilla id. Phasellus id nibh eu
-            risus ultrices adipiscing.  Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Donec porta, dui sagittis hendrerit
-            rutrum, nunc leo tempus nisl, eu mollis justo velit at
-            nunc. Fusce nec egestas sem. Donec fringilla.
+            A video of an early manual prototype test. 
           </p>
-        </div>
+	  <p> 
+	    Don't worry, with your support we'll be able to work out the kinks. 
+	  </p>  
+	</div>
         <div class="span5 asset">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
-        </div>
+	  <div class="flex-video widecreen">
+	    <iframe  src="//www.youtube.com/embed/VrYFA85CyZk" frameborder="0" allowfullscreen="" width="400" height="380"></iframe>
+          </div>
+	  </div>
       </div>
 
       <!-- For the FAQ, we introduce a little bit of JS, using the accordion. -->
